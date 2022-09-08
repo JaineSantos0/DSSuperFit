@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --bg-color-red: #F03C42;
+    --bg-color-blue: #222374;
+    --bg-color-light-gray: #CCCCCC;
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a, a:hover {
+    color: unset;
+    text-decoration: none;
+}
+
+header {
+    background-color: var(--bg-color-red);
+    color: var(--color-white);
+    padding: 0 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.container h2 {
+   padding-bottom: 20px;
+}
+
+.upper-corner {
+    display: flex;
+    align-items: center;
+}
+
+.upper-corner img {
+    margin-right: 10px;
+}
+
+#our-space {
+    background-color: var(--bg-color-blue);
+    color: var(--color-white);
+    padding: 20px 15px 40px 15px;
+}
+
+.card-our-space {
+    color: var(--color-black);
+    background-color: var(--bg-color-light-gray);
+    margin-top: 20px;
+    padding: 20px 20px;
+    border-radius: 8px;
+}
+
+.card-our-space h3 {
+    padding-bottom: 20px;
+}
+
+#modalities {
+    background-color: var(--color-white);
+    margin-bottom: 40px;
+    color: var(--bg-color-red);
+    padding: 0 15px;
+}
+
+.card-container h2 {
+    margin: 20px 0 20px 0;
+}
+
+.card-modalities {
+    margin-bottom: 20px;
+    background-color: var(--bg-color-blue);
+    padding: 20px 0 20px 20px;
+    border-radius: 8px;
+
+}
+
+.card-modalities h3 {
+    color: var(--color-white);
+}
+
+.card-modalities p {
+    color: var(--bg-color-light-gray);
+    padding-top: 20px;
+}
+
+footer {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    height: 262px;
+    padding: 60px 15px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 262px;
+}
+
+.instagram img {
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.twitter img {
+    margin: 10px 10px 0 0;
+    height: 30px;
+    width: 30px;
+}
+
+.address {
+    padding-top: 30px;
+    text-align: center;
+}
